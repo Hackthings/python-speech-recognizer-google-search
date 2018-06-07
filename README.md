@@ -21,6 +21,7 @@ install Requirements
 =====================
 
 Install requirements is easy using ``pip`` and will install all required libraries.
+- espeak is a great tool for convert text to speech 
 ```
     $ pip3 install ./requirements.txt
     $ pip install BeautifulSoup

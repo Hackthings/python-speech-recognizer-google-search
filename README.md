@@ -23,6 +23,10 @@ install Requirements
 Install requirements is easy using ``pip`` and will install all required libraries.
 ```
     $ pip3 install ./requirements.txt
+    $ pip install BeautifulSoup
+    $ python -m webbrowser -t "http://www.python.org"
+    $ pip install dbus-python
+
 ```    
 
 

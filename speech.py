@@ -21,7 +21,7 @@ def google(text):
     return result[1] 
 
 
-notify2.init('LTU Assistant')
+notify2.init('Olivia')
 
 text_only_mode = False
 
@@ -30,7 +30,7 @@ def speak(message, also_cmd=False):
     if also_cmd or text_only_mode:
         print(message)
     try:
-        notification = notify2.Notification('LTU Assistant',
+        notification = notify2.Notification('Olivia',
                                             message,
                                             'notification-message-im')
         notification.show()
